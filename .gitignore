@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+outputs/
+one2video_app/outputs/
+
+# Wan2.2 Model Weights (Subdirectory under wan/)
+wan/Wan2.2-*/
+wan/*.pth
+wan/*.bin
+wan/*.onnx
+wan/*.json
+wan/models/
+
+# FaceFusion Models & Assets
+facefusion/.assets/
+facefusion/.jobs/
+facefusion/.caches/
+
+# IDEs
+.vscode/
+.idea/
+
+# Large Files & Logs
+*.log
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.webp
+!wan/assets/*.png
+!wan/assets/*.jpg
+!wan/examples/**/*
+!one2video_app/mock_assets/**/*
