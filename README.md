@@ -21,7 +21,7 @@ conda activate one2video
 
 # Install core dependencies
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install gradio modelscope huggingface_hub
+pip install gradio modelscope huggingface_hub modelscope
 ```
 
 ### 3. Install Component Dependencies
